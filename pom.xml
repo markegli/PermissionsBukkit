@@ -9,10 +9,8 @@
 
     <repositories>
         <repository>
-            <id>bukkit</id>
-            <name>Bukkit Artifactory</name>
-            <layout>default</layout>
-            <url>http://repo.bukkit.org/content/groups/public/</url>
+            <id>spigot-repo</id>
+            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
         </repository>
         <repository>
             <id>Plugin Metrics</id>
@@ -25,8 +23,7 @@
             <groupId>org.bukkit</groupId>
             <artifactId>bukkit</artifactId>
             <version>1.9-R0.1-SNAPSHOT</version>
-            <type>jar</type>
-            <scope>compile</scope>
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.mcstats.bukkit</groupId>
